@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Park Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>National Park Finder finder</h1>
+
+      <form id="js-form" class="state-selector">
+        <label for="search-term">Search By State:</label> <br />
+        <input
+          type="checkbox"
+          id="alabama"
+          name="Alabama"
+          value="AL"
+          class="state-selector"
+        />
+        <label for="Alabama"> Alabama</label><br />
+        <input
+          type="checkbox"
+          id="alaska"
+          name="Alaska"
+          value="AK"
+          class="state-selector"
+        />
+        <label for="Alaska"> Alaska</label><br />
+        <input
+          type="checkbox"
+          id="arizona"
+          name="Arizona"
+          value="AZ"
+          class="state-selector"
+        />
+        <label for="Arizona"> Arizona</label><br />
+        <input
+          type="checkbox"
+          id="arkansas"
+          name="Arkansas"
+          value="AR"
+          class="state-selector"
+        />
+        <label for="Arkansas"> Arkansas</label><br />
+        <input
+          type="checkbox"
+          id="california"
+          name="California"
+          value="CA"
+          class="state-selector"
+        />
+        <label for="California"> California</label><br />
+        <input
+          type="checkbox"
+          id="colorado"
+          name="Colorado"
+          value="CO"
+          class="state-selector"
+        />
+        <label for="Colorado"> Colorado</label><br />
+        <input
+          type="checkbox"
+          id="connecticut"
+          name="Connecticut"
+          value="CT"
+          class="state-selector"
+        />
+        <label for="Connecticut"> Connecticut</label><br />
+        <input
+          type="checkbox"
+          id="delaware"
+          name="Delaware"
+          value="DE"
+          class="state-selector"
+        />
+        <label for="Delaware"> Delaware</label><br />
+        <input
+          type="checkbox"
+          id="district_of_columbia"
+          name="District Of Columbia"
+          value="DC"
+          class="state-selector"
+        />
+        <label for="District Of Columbia"> District Of Columbia</label><br />
+        <input
+          type="checkbox"
+          id="florida"
+          name="Florida"
+          value="FL"
+          class="state-selector"
+        />
+        <label for="Florida"> Florida</label><br />
+        <input
+          type="checkbox"
+          id="georgia"
+          name="Georgia"
+          value="GA"
+          class="state-selector"
+        />
+        <label for="Georgia"> Georgia</label><br />
+        <input
+          type="checkbox"
+          id="hawaii"
+          name="Hawaii"
+          value="HI"
+          class="state-selector"
+        />
+        <label for="Hawaii"> Hawaii</label><br />
+        <input
+          type="checkbox"
+          id="idaho"
+          name="Idaho"
+          value="ID"
+          class="state-selector"
+        />
+        <label for="Idaho"> Idaho</label><br />
+        <input
+          type="checkbox"
+          id="illinois"
+          name="Illinois"
+          value="IL"
+          class="state-selector"
+        />
+        <label for="Illinois"> Illinois</label><br />
+        <input
+          type="checkbox"
+          id="indiana"
+          name="Indiana"
+          value="IN"
+          class="state-selector"
+        />
+        <label for="Indiana"> Indiana</label><br />
+        <input
+          type="checkbox"
+          id="iowa"
+          name="Iowa"
+          value="IA"
+          class="state-selector"
+        />
+        <label for="Iowa"> Iowa</label><br />
+        <input
+          type="checkbox"
+          id="kansas"
+          name="Kansas"
+          value="KS"
+          class="state-selector"
+        />
+        <label for="Kansas"> Kansas</label><br />
+        <input
+          type="checkbox"
+          id="kentucky"
+          name="Kentucky"
+          value="KY"
+          class="state-selector"
+        />
+        <label for="Kentucky"> Kentucky</label><br />
+        <input
+          type="checkbox"
+          id="louisiana"
+          name="Louisiana"
+          value="LA"
+          class="state-selector"
+        />
+        <label for="Louisiana"> Louisiana</label><br />
+        <input
+          type="checkbox"
+          id="maine"
+          name="Maine"
+          value="ME"
+          class="state-selector"
+        />
+        <label for="Maine"> Maine</label><br />
+        <input
+          type="checkbox"
+          id="maryland"
+          name="Maryland"
+          value="MD"
+          class="state-selector"
+        />
+        <label for="Maryland"> Maryland</label><br />
+        <input
+          type="checkbox"
+          id="massachusetts"
+          name="Massachusetts"
+          value="MA"
+          class="state-selector"
+        />
+        <label for="Massachusetts"> Massachusetts</label><br />
+        <input
+          type="checkbox"
+          id="michigan"
+          name="Michigan"
+          value="MI"
+          class="state-selector"
+        />
+        <label for="Michigan"> Michigan</label><br />
+        <input
+          type="checkbox"
+          id="minnesota"
+          name="Minnesota"
+          value="MN"
+          class="state-selector"
+        />
+        <label for="Minnesota"> Minnesota</label><br />
+        <input
+          type="checkbox"
+          id="mississippi"
+          name="Mississippi"
+          value="MS"
+          class="state-selector"
+        />
+        <label for="Mississippi"> Mississippi</label><br />
+        <input
+          type="checkbox"
+          id="missouri"
+          name="Missouri"
+          value="MO"
+          class="state-selector"
+        />
+        <label for="Missouri"> Missouri</label><br />
+        <input
+          type="checkbox"
+          id="montana"
+          name="Montana"
+          value="MT"
+          class="state-selector"
+        />
+        <label for="Montana"> Montana</label><br />
+        <input
+          type="checkbox"
+          id="nebraska"
+          name="Nebraska"
+          value="Nebraska"
+          class="state-selector"
+        />
+        <label for="Nebraska"> Nebraska</label><br />
+        <input
+          type="checkbox"
+          id="nevada"
+          name="Nevada"
+          value="NV"
+          class="state-selector"
+        />
+        <label for="Nevada"> Nevada</label><br />
+        <input
+          type="checkbox"
+          id="new_hampshire"
+          name="New Hampshire"
+          value="NH"
+          class="state-selector"
+        />
+        <label for="New Hampshire"> New Hampshire</label><br />
+        <input
+          type="checkbox"
+          id="new_jersey"
+          name="New Jersey"
+          value="NJ"
+          class="state-selector"
+        />
+        <label for="New Jersey"> New Jersey</label><br />
+        <input
+          type="checkbox"
+          id="new_mexico"
+          name="New Mexico"
+          value="NM"
+          class="state-selector"
+        />
+        <label for="New Mexico"> New Mexico</label><br />
+        <input
+          type="checkbox"
+          id="new_york"
+          name="New York"
+          value="NY"
+          class="state-selector"
+        />
+        <label for="New York"> New York</label><br />
+        <input
+          type="checkbox"
+          id="north_carolina"
+          name="North Carolina"
+          value="NC"
+          class="state-selector"
+        />
+        <label for="North Carolina"> North Carolina</label><br />
+        <input
+          type="checkbox"
+          id="north_dakota"
+          name="North Dakota"
+          value="ND"
+          class="state-selector"
+        />
+        <label for="North Dakota"> North Dakota</label><br />
+        <input
+          type="checkbox"
+          id="ohio"
+          name="Ohio"
+          value="OH"
+          class="state-selector"
+        />
+        <label for="Ohio"> Ohio</label><br />
+        <input
+          type="checkbox"
+          id="oklahoma"
+          name="Oklahoma"
+          value="OK"
+          class="state-selector"
+        />
+        <label for="Oklahoma"> Oklahoma</label><br />
+        <input
+          type="checkbox"
+          id="oregon"
+          name="Oregon"
+          value="OR"
+          class="state-selector"
+        />
+        <label for="Oregon"> Oregon</label><br />
+        <input
+          type="checkbox"
+          id="pennsylvania"
+          name="Pennsylvania"
+          value="PA"
+          class="state-selector"
+        />
+        <label for="Pennsylvania"> Pennsylvania</label><br />
+        <input
+          type="checkbox"
+          id="rhode_island"
+          name="Rhode Island"
+          value="RI"
+          class="state-selector"
+        />
+        <label for="Rhode Island"> Rhode Island</label><br />
+        <input
+          type="checkbox"
+          id="south_carolina"
+          name="South Carolina"
+          value="SC"
+          class="state-selector"
+        />
+        <label for="South Carolina"> South Carolina</label><br />
+        <input
+          type="checkbox"
+          id="south_dakota"
+          name="South Dakota"
+          value="SD"
+          class="state-selector"
+        />
+        <label for="South Dakota"> South Dakota</label><br />
+        <input
+          type="checkbox"
+          id="tennessee"
+          name="Tennessee"
+          value="TN"
+          class="state-selector"
+        />
+        <label for="Tennessee"> Tennessee</label><br />
+        <input
+          type="checkbox"
+          id="texas"
+          name="Texas"
+          value="TX"
+          class="state-selector"
+        />
+        <label for="Texas"> Texas</label><br />
+        <input
+          type="checkbox"
+          id="utah"
+          name="Utah"
+          value="UT"
+          class="state-selector"
+        />
+        <label for="Utah"> Utah</label><br />
+        <input
+          type="checkbox"
+          id="vermont"
+          name="Vermont"
+          value="VT"
+          class="state-selector"
+        />
+        <label for="Vermont"> Vermont</label><br />
+        <input
+          type="checkbox"
+          id="virginia"
+          name="Virginia"
+          value="VA"
+          class="state-selector"
+        />
+        <label for="Virginia"> Virginia</label><br />
+        <input
+          type="checkbox"
+          id="washington"
+          name="Washington"
+          value="WA"
+          class="state-selector"
+        />
+        <label for="Washington"> Washington</label><br />
+        <input
+          type="checkbox"
+          id="west_virginia"
+          name="West Virginia"
+          value="WV"
+          class="state-selector"
+        />
+        <label for="West Virginia"> West Virginia</label><br />
+        <input
+          type="checkbox"
+          id="wisconsin"
+          name="Wisconsin"
+          value="WI"
+          class="state-selector"
+        />
+        <label for="Wisconsin"> Wisconsin</label><br />
+        <input
+          type="checkbox"
+          id="wyoming"
+          name="Wyoming"
+          value="WY"
+          class="state-selector"
+        />
+        <label for="Wyoming"> Wyoming</label><br />
+
+        <!--<input type="text" name="search-term" class="state-selector" required /> -->
+
+        <label for="max-results">Maximum results to return</label>
+        <input
+          type="number"
+          name="max-results"
+          id="js-max-results"
+          value="10"
+        />
+
+        <input type="submit" value="Go!" />
+      </form>
+
+      <p id="js-error-message" class="error-message"></p>
+      <section id="results" class="hidden">
+        <h2>Search results</h2>
+        <ul id="results-list"></ul>
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
